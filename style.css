@@ -1,0 +1,91 @@
+    .custom-control-input:checked~.custom-control-indicator{
+        color:white;
+        background-color:#02945D;
+        border:none;
+    }
+    *{
+        font-family: 'Roboto', sans-serif;
+    }
+    .wind-table{
+        position:relative;
+        width: 374px;
+        height:auto;
+        background-color: white;
+        box-sizing: border-box;
+        padding:50px 30px;
+        box-shadow: 0 0 20px rgba(190, 190, 190, 0.5);
+        border-radius:5px;
+    }
+    button{
+        width: 149px;
+        height:40px;
+        box-sizing: border-box;
+        padding:10px 20px 10px 20px;
+        font-size:14px !important;
+        border:none;
+        border-radius:5px;
+        font-weight:400;
+        font-size:14px;
+        color:#333333;
+        background-color: #f7f7f7;
+    }
+    button:last-child{
+        background-color: #008E59;
+        color:white;
+    }
+    i{
+        color:#646464;
+        width:16px;
+    }
+    .dropdown-toggle::after {
+        display: none !important;
+        }
+    .btn{
+        padding: 0px !important;
+        color:#383838;
+        font-weight: 400;
+    }
+    .info{
+        width:16px;
+        height:16px;
+        margin-left:10px;
+        margin-top:5px;
+    }
+    .custom-control-description{
+        font-size:14px;
+    }
+    #close{
+        position:absolute;
+        top:15px;
+        left:90%;
+        cursor: pointer;
+    }
+    .dropdown-menu{
+        border:none;
+        padding:1%;
+    }
+    .show{
+        position:relative !important;
+        width:100%;
+        transform: none !important;
+    }
+    ul{
+        padding-left:0px;
+    }
+    ul li{
+        list-style: none;
+    }
+    #dropdownMenuButton{
+        margin-top:15px;
+    }
+
+    @media (max-width:400px){
+        .wind-table{
+            width: 320px;
+            border-radius:25px 35px 5px 5px;
+        }
+        button{
+            width: 119px;
+            height:35px;
+        }
+    }
