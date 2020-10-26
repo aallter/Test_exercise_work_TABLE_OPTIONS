@@ -82,7 +82,7 @@
     @media (max-width:400px){
         .wind-table{
             width: 320px;
-            border-radius:25px 35px 5px 5px;
+            border-radius:25px 25px 5px 5px;
         }
         button{
             width: 119px;
